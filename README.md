@@ -1,3 +1,18 @@
+
+
+文件夹的copy 方法
+./rclone serve http /home/www/wwwroot/snsfed.com/ \
+    --addr :9000 \
+    --user "data" \
+    --pass "data"
+
+
+
+
+./rclone copy ":http,url='http://data:data@IP:9000/':" /opt/1panel/www/sites/snsfed/index/ --progress
+
+
+
 <!-- markdownlint-disable-next-line first-line-heading no-inline-html -->
 [<img src="https://rclone.org/img/logo_on_light__horizontal_color.svg" width="50%" alt="rclone logo">](https://rclone.org/#gh-light-mode-only)
 <!-- markdownlint-disable-next-line no-inline-html -->
